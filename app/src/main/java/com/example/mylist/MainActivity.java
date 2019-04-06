@@ -99,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
                 TextViewHolder textViewHolder = ((TextViewHolder) viewHolder);
                 ListItemData item = items.get(position);
                 textViewHolder.setText(item.getTitle());
+                textViewHolder.setBackgroundColor(item.getbackgroundColor());
             }
         }
 
